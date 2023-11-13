@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 97vh;
+    height: 90vh;
     background-color: #262626;
     color: #fff;
     font-family: Roboto;
@@ -12,6 +12,11 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+.container {
+    margin-top: -25px;
+    padding: 5px;
 }
 
 .person {
@@ -35,8 +40,8 @@ body {
 
 .heart {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 5px;
+    right: 5px;
 }
 
 .heart span {
